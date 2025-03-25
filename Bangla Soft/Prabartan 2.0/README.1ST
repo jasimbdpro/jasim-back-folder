@@ -1,0 +1,154 @@
+Thank you for purchasing PRABARTAN 2.0 FOR WINDOWS 3.1.
+
+Installing Prabartan 2.0 for Windows 3.1
+
+Part A (Program installation) :
+
+1.   Before you begin to install Prabartan, it is advised to unload Anti-Virus 
+     program (TSR Program) from memory.
+2.   Load Microsoft Windows 3.1 by entering ®win¯ at DOS prompt (if you are 
+     not in the Windows environment).
+3.   Insert "Prabartan 2.0 for Windows 3.1" disk in drive A (or drive B or any
+     other drive as configured to your system).
+4.   Click left mouse button on the ®File¯ menu of the  Program Manager at the
+     Top-left corner (if the Program Manager is minimized, double click the
+     Program Manager icon to maximize it before carrying out step 3).
+5.   Click left mouse button on the ®Run...¯ item.
+6.   A new window titled ®Run¯ would be opened. Now in the command line box
+     (where the cursor is blinking) type ®a:\setup.exe¯ (in case of drive B
+     type ®b:\setup.exe¯ otherwise replace ®a:\¯ by a suitable drive letter
+     followed by colon and backslash then type setup.exe), then click left
+     mouse button on OK.
+
+
+
+               Now ®SETUP for Prabartan 2.0¯ window would be opened.
+
+
+7.   Next the setup would give a message ®C:\WINDOWS¯ in the ®Copy to:¯ box.
+     Click left mouse button on the ®Continue¯ box.
+     
+     The setup will complete the installation of "Prabartan 2.0 for
+     Windows 3.1" and it will create a new program group (PRABARTAN)
+     in the Program Manager which includes program item Prabartan
+     (iconized) ready to execute.
+
+     Before using "Prabartan" you must install the Bangla TrueType Fonts
+     (MOINA) that comes with the installati6on disk otherwise you will not
+     be able to see Bangla on the screen nor you can print the Bangla text.
+     Go to Part B (Moina, TrueType Fonts Installation) section of Installing
+     "Prabartan 2.0 for Windows 3.1" to complete the installation.
+
+
+Part B (Moina,TrueType Fonts Installation) :
+
+1.   Open ®Main¯ Window in the Program Manager by double clicking left mouse
+     button on ®Main¯ icon in the  Program Manager.
+2.   Double click left mouse button on ®Control Panel¯ icon in the Main
+     window.
+3.   Double click left mouse button on ®Fonts¯ icon in the ®Control Panel¯
+     window.
+4.   Click left mouse button on ®Add¯ button on right side of the window.
+5.   Click left mouse button on drives button on the ®Add Fonts¯ window.
+6.   Select by clicking drive a: at the ®Drives:¯ box (or drive b: or any
+     other suitable drive,whichever the case). When Font names were retrieved,
+     you will see a list of fonts displayed in the list of fonts box
+     (e.g. MoinaNormal, MoinaBold etc.).
+7.   Click left mo6use button on Select All button and then6 click left
+     mouse button on OK button.
+8.   Now Close the ®Control Panel¯, ®Main¯ windows.
+
+
+
+
+Using Prabartan : An Example
+
+
+Before you use "Prabartan" with a Windows' application e.g. Microsoft Windows
+Write, MS Word, WordPerfect, Lotus 1-2-3 etc., you should activate Prabartan
+first. Carry out the following steps for using "Prabartan" with Microsoft
+Windows Write.
+
+1.   Double click the "Prabartan" icon (present in "PRABARTAN" group) with
+     left mouse button.
+2.   Click a keyboard template. e.g. National Keyboard.
+3.   Click Manual button in the Translation box if you want to change English
+     (or Windows Default)
+     Keyboard to Bangla Keyboard (or vice versa) manually. Otherwise click on
+     Automatic button (this would change English or Windows Default Keyboard
+     to Bangla Keyboard automatically when you change Fonts to Bangla Fonts
+     or vice versa).
+4.   Click OK. From now on "Prabartan" will remain active (maintaining English
+     or Windows' default Keyboard) and visible as a floating icon on the
+     Bottom-left side of the screen, until you close (Terminate) it. The icon
+     also shows the Keyboard Template that you have chosen.
+5.   Open Write from Accessories group.
+6.   Click Character menu and then click on Fonts item. Choose one Bangla Font
+     by clicking on e.g. MoinaNormal or type MoinaNormal. Similarly select a
+     Font size e.g. 18 from the size list or type 18. Click OK.
+7.   Press Ctrl, Alt & B keys at the same time to activate Bangla Keyboard.
+     This will instantly change Prabartan icon's image into Bangla 1st letter
+     indicating the active Keyboard is Bangla.
+8.   Type as you like. You will to see Bangla on the screen.
+9.   For approved combined letters press a letter then press H (Only when
+     Caps Lock is off. Actually in National Keyboard Template, the letter "h"
+     joins two or more letters within the limitation of Bangla language) then 
+     press 2nd letter e.g. for Ko + Ko, press Ko then press H then press Ko.
+     If you have made a typing mistake in creating combined or conjunct
+     letters, do not use Backspace key. Instead of using Backspace key, bring 
+     the cursor first in front of the letter(s) to erase and then use Delete 
+     key to delete the letter(s).
+10.  For English keyboard (or Windows default) press Ctrl, Alt & B keys at the 
+     same time to reactivate English keyboard (or Windows default). This will 
+     change Prabartan icon's image back to English letter "A". Choose any 
+     English Font and a suitable Font size as mentioned earlier.
+
+Note:
+     1.   When you are in Bangla mode make sure that Caps Lock key is off.
+     2.   You can use "Prabartan" for other Windows' Word Processors or 
+          Spread sheets (e.g. Lotus 1-2-3, Microsoft Excel etc.).
+
+
+If you have any problem please write or call
+
+    COMPUTER SERVICES
+    House #43 (1st floor), Road #16 (old 27)
+    Dhanmondi, Dhaka-1209.
+    Bangladesh.
+            
+Phone: +880-(2)-816215/9119861/9117810
+Fax  : +880-(2)-817734
+
+
+PBKBD.INI FILE:
+The PBKBD.INI (initial file) must be in the Windows directory. The text of
+pbkbd.ini file must be text format. The default content of this file is
+as follow:
+
+[Tasks]
+WINWORD=1
+MSWORD=1
+FOXPROW=1
+MAIN123W=2
+EXCEL=2
+WORDART2=1
+EQNEDIT=2
+PM5APP=1
+IMAGEVW=1
+
+[Fonts]
+MoinaNormal=1
+MoinaBold=1
+MoinaExpanded=1
+MoinaBoldExpanded=1
+
+[Templates]
+National Keyboard=NAKBD.KTT
+Onirbaan Keyboard=OBKBD.KTT
+Bijoy Keyboard=BIKBD.KTT
+Munir Optima Keyboard=MUKBD.KTT
+
+[Setup]
+Xlator=205
+Xlation=209
+Template=National Keyboard

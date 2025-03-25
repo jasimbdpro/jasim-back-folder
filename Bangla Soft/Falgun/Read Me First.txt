@@ -1,0 +1,7 @@
+FALGUN KEYBOARD INTERFACE.
+--------------------------
+--------------------------
+
+
+If show any error message then first run VBRUN60sp5.exe from CD.
+And then run the CD again or run Setup.exe from then cd.

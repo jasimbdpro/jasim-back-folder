@@ -1,0 +1,58 @@
+[dialog]
+
+  caption = "SETUP for Prabartan 1.0"
+
+[data]
+
+  defdir = C:\WINDOWS
+
+[disks]
+;     n = path, title
+ 
+  1 =.,        "Prabartan Application Disk"
+
+[needed.space]
+  
+  minspace = 720000
+
+
+[app.destinations]
+;
+;     #section_name, 0:dest_pathname
+;
+
+      #app.user,    0:
+      #app.system , 0:system
+
+[app.user]
+;
+;     N:FILENAME, "Description"
+;
+
+  1:PBKBD.EXE, "PBKBD.EXE"
+  1:PBKBD.INI, "PBKBD.INI"
+  1:PBKBD.HLP, "PBKBD.HLP"
+  1:PBHOOK.DLL, "PBHOOK.DLL"
+  1:NAKBD.KTT, "National Keyborad Layout"
+  1:OBKBD.KTT, "Onirbaan Keyborad Layout"
+  1:BIKBD.KTT, "Bijoy Keyborad Layout"
+  1:MUKBD.KTT, "Munir Optima Keyborad Layout"
+
+[app.system]
+
+  1:BWCC.DLL, "BWCC.DLL"
+
+[progman.groups]
+;
+;     groupname, [groupfile.grp]
+;
+
+  Prabartan, pbkbd.grp
+
+[Prabartan]
+;
+;     "Description",    APPFILE.EXE, [ICONFILE.EXE[, N]]
+;    
+
+"Prabartan", PBKBD.EXE
+
